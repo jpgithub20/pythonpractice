@@ -1,0 +1,18 @@
+from math import *
+
+
+p = .5 #proportion/probability
+n = 50 #sample size
+
+a = (p*(1-p))
+b = a/n
+s = sqrt(b)
+
+print("p = " + str(p))
+print("s = " + str(s))
+print("n = " + str(n))
+
+if n*p >= 10 and n*(1-p) >= 10:
+    print("Approximately normal")
+else:
+    print("The sample size is not large enough.")
