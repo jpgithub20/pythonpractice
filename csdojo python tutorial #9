@@ -1,0 +1,19 @@
+class pokemon:
+    def __init__(self, name, type1, type2, hp, attack, defense, spatk, spdef, speed):
+        self.name = name
+        self.type1 = type1
+        self.type2 = type2
+        self.hp = hp
+        self.attack = attack
+        self.defense = defense
+        self.spatk = spatk
+        self.spdef = spdef
+        self.speed = speed
+        
+    def stats(self):
+        print (self.name, self.type1, self.type2, self.hp, self.attack, self.defense, self.spatk, self.spdef, self.speed)
+
+
+r1 = pokemon("Mew", "Psychic", "None", 100, 100, 100, 100, 100, 100)
+
+r1.stats()
