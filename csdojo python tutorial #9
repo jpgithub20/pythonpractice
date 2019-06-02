@@ -1,4 +1,5 @@
-```class pokemon:
+```
+class pokemon:
     def __init__(self, name, type1, type2, hp, attack, defense, spatk, spdef, speed):
         self.name = name
         self.type1 = type1
